@@ -1,4 +1,4 @@
-Project?
+#Project?
 An interactive Python program that re-implements almost all common string methods like upper, lower, strip, replace, find, count, center, startswith, etc. — completely from scratch, without using a single built-in string method! 😎
 Everything is written manually using basic loops, ord(), chr(), slicing, and pure logic.
 
