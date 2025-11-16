@@ -8,57 +8,57 @@ This project allows users to create multiple accounts, deposit and withdraw mone
 
 
 
-\## 🚀 Features
+## 🚀 Features
 
 
 
-\- ✔️ Create multiple bank accounts  
+- ✔️ Create multiple bank accounts  
 
-\- ✔️ Validate user inputs (no negative values, no invalid numbers)  
+- ✔️ Validate user inputs (no negative values, no invalid numbers)  
 
-\- ✔️ Deposit into any account  
+- ✔️ Deposit into any account  
 
-\- ✔️ Withdraw with balance checking  
+- ✔️ Withdraw with balance checking  
 
-\- ✔️ Display all accounts and balances  
+- ✔️ Display all accounts and balances  
 
-\- ✔️ Calculate and show accounts with above-average balance  
+- ✔️ Calculate and show accounts with above-average balance  
 
-\- ✔️ User-controlled loop to continue or exit  
+- ✔️ User-controlled loop to continue or exit  
 
-\- ✔️ Fully interactive terminal experience  
-
-
-
-\## 📌 How It Works
+- ✔️ Fully interactive terminal experience  
 
 
 
-1\. User enters the number of accounts  
-
-2\. For each account:  
-
-&nbsp;  - Enter account owner’s name  
-
-&nbsp;  - Enter initial balance (validated)  
-
-3\. The main menu provides 5 options:  
-
-&nbsp;  - `1` → Show all account balances  
-
-&nbsp;  - `2` → Deposit into a specific account  
-
-&nbsp;  - `3` → Withdraw from a specific account  
-
-&nbsp;  - `4` → Show accounts above average balance  
-
-&nbsp;  - `5` → Exit  
-
-4\. After each operation (1–4), the user chooses whether to return to the menu or exit.
+## 📌 How It Works
 
 
 
-\## 🧠 Example Account Structure
+1. User enters the number of accounts  
+
+2. For each account:  
+
+  - Enter account owner’s name  
+
+  - Enter initial balance (validated)  
+
+3. The main menu provides 5 options:  
+
+  - `1` → Show all account balances  
+
+  - `2` → Deposit into a specific account  
+
+  - `3` → Withdraw from a specific account  
+
+  - `4` → Show accounts above average balance  
+
+  - `5` → Exit  
+
+4. After each operation (1–4), the user chooses whether to return to the menu or exit.
+
+
+
+## 🧠 Example Account Structure
 
 
 
@@ -69,33 +69,34 @@ Each account is stored as a dictionary:
 ```python
 
 {"name": "younes", "balance": 1500}
+```
 
 All accounts are stored in a list:
-
-pythonaccounts = \[]
-
+```python
+accounts = []
+```
 📂 Project Structure
-
-textBank-System/
+```text
+Bank-System/
 
 ├── Bank-System.py   # Main program file
 
 └── README.md        # Project documentation
-
+```
 🛠 Requirements
 
 
 
-Python 3.x
+- Python 3.x
 
-No external libraries needed
+- No external libraries needed
 
 
 
 ▶️ How to Run
-
-bashpython Bank-System.py
-
+```bash
+python Bank-System.py
+```
 🤝 Contributions
 
 Pull requests and improvements are welcome!
