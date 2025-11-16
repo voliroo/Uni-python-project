@@ -1,0 +1,104 @@
+markdown# 🏦 Banking System (Python CLI Project)
+
+
+
+A simple yet fully interactive Command-Line Banking System written in Python.  
+
+This project allows users to create multiple accounts, deposit and withdraw money, view all accounts, and check which accounts have balances above the average.
+
+
+
+\## 🚀 Features
+
+
+
+\- ✔️ Create multiple bank accounts  
+
+\- ✔️ Validate user inputs (no negative values, no invalid numbers)  
+
+\- ✔️ Deposit into any account  
+
+\- ✔️ Withdraw with balance checking  
+
+\- ✔️ Display all accounts and balances  
+
+\- ✔️ Calculate and show accounts with above-average balance  
+
+\- ✔️ User-controlled loop to continue or exit  
+
+\- ✔️ Fully interactive terminal experience  
+
+
+
+\## 📌 How It Works
+
+
+
+1\. User enters the number of accounts  
+
+2\. For each account:  
+
+&nbsp;  - Enter account owner’s name  
+
+&nbsp;  - Enter initial balance (validated)  
+
+3\. The main menu provides 5 options:  
+
+&nbsp;  - `1` → Show all account balances  
+
+&nbsp;  - `2` → Deposit into a specific account  
+
+&nbsp;  - `3` → Withdraw from a specific account  
+
+&nbsp;  - `4` → Show accounts above average balance  
+
+&nbsp;  - `5` → Exit  
+
+4\. After each operation (1–4), the user chooses whether to return to the menu or exit.
+
+
+
+\## 🧠 Example Account Structure
+
+
+
+Each account is stored as a dictionary:
+
+
+
+```python
+
+{"name": "younes", "balance": 1500}
+
+All accounts are stored in a list:
+
+pythonaccounts = \[]
+
+📂 Project Structure
+
+textBank-System/
+
+├── Bank-System.py   # Main program file
+
+└── README.md        # Project documentation
+
+🛠 Requirements
+
+
+
+Python 3.x
+
+No external libraries needed
+
+
+
+▶️ How to Run
+
+bashpython Bank-System.py
+
+🤝 Contributions
+
+Pull requests and improvements are welcome!
+
+Feel free to fork the repo and submit enhancements ✨
+
